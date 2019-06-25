@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Background"
+    tools:context=".SignIn"
+    tools:ignore="HardcodedText">
+
+    <!-- your logo -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="119dp"/>
+        <!--android:src="@drawable/logo" -->/>
+
+    <!-- email and Password -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:layout_above="@+id/id_signIn_Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/bg_linearlayout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            >
+
+            <Strathcafe.cairoEditText
+                android:id="@+id/id_email_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:hint="@string/email"
+                android:textColor="@color/Texticons"
+                android:textColorHint="@color/Texticons"
+                android:textSize="14sp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/id_view_1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            >
+
+            <Strathcafe.cairoEditText
+                android:id="@+id/id_password_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@null"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/Texticons"
+                android:textColorHint="@color/Texticons"
+                android:textSize="14sp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- Sign In Button -->
+
+    <Strathcafe.cairoButton
+        android:id="@+id/id_signIn_Button"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_above="@+id/id_forgetPassword_TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="22dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/sign_in"
+        android:textAllCaps="false"
+        android:textColor="@color/secondarytext" />
+
+    <!-- forget password -->
+
+    <Strathcafe.cairoTextView
+        android:id="@+id/id_forgetPassword_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_SignUp_LinearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="@string/forgot_password"
+        android:textColor="@color/Texticons"
+        android:textSize="16sp" />
+
+    <!-- Sign Up with Email or Facebook -->
+    <LinearLayout
+        android:id="@+id/id_SignUp_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/id_SignUpFacebook_RelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="#31FFFFFF"
+            >
+
+            <Strathcafe.cairoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:text="@string/sign_up_with_facebook"
+                android:textColor="@color/Texticons"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/id_sIGNuP_RelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="2dp"
+            android:background="#31FFFFFF"
+            >
+
+            <Strathcafe.cairoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:text="@string/new_create_account_now"
+                android:textColor="@color/Texticons"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
