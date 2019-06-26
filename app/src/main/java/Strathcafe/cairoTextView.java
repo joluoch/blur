@@ -5,9 +5,6 @@ import android.graphics.Typeface;
 import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
-/**
- * for more visit http://materialuiux.com
- */
 public class cairoTextView extends AppCompatTextView {
 
     public cairoTextView(Context context) {

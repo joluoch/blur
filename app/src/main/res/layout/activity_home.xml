@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:background="@drawable/homeback">
+
+    <!-- your logo -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="119dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/id_LoginOPtion_LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/id_CustomerLogin_RelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="#31FFFFFF"
+            >
+
+            <TextView
+                android:id="@+id/Clogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:text="Customer Login"
+                android:clickable="true"
+                android:textColor="@color/Texticons"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/id_ChefLogin_RelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="2dp"
+            android:background="#31FFFFFF"
+            >
+
+            <TextView
+                android:id="@+id/cLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="18dp"
+                android:layout_marginLeft="18dp"
+                android:clickable="true"
+                android:text="Chef Login"
+                android:textColor="@color/Texticons"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

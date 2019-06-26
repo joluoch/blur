@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:ignore="ContentDescription"
     android:background="@drawable/backgroundsignup"
-    tools:context=".SignUp">
+    tools:context=".customer.SignUp">
 
     <!-- back Button -->
     <ImageButton
@@ -25,8 +25,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="119dp"
         android:layout_marginTop="70dp"
-        android:layout_marginRight="119dp"/>
-        <!--android:src="@drawable/logo"--> />
+        android:layout_marginRight="119dp"
+        android:src="@drawable/logo"/>
 
     <!-- Sign Up Linear -->
     <LinearLayout

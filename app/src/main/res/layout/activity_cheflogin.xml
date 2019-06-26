@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Background"
-    tools:context=".customer.SignIn"
-    tools:ignore="HardcodedText">
+    android:background="@drawable/homeback"
+    tools:context=".chef.cheflogin">
 
-    <!-- your logo -->
 
     <ImageView
         android:layout_width="match_parent"
@@ -24,7 +22,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="86dp"
-        android:layout_above="@+id/id_signIn_Button"
+        android:layout_above="@+id/id_CsignIn_Button"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="27dp"
         android:layout_marginRight="27dp"
@@ -39,7 +37,7 @@
             >
 
             <Strathcafe.cairoEditText
-                android:id="@+id/id_email_EditText"
+                android:id="@+id/id_Cemail_EditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
@@ -64,7 +62,7 @@
             >
 
             <Strathcafe.cairoEditText
-                android:id="@+id/id_password_EditText"
+                android:id="@+id/id_Cpassword_EditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
@@ -84,10 +82,10 @@
     <!-- Sign In Button -->
 
     <Strathcafe.cairoButton
-        android:id="@+id/id_signIn_Button"
+        android:id="@+id/id_CsignIn_Button"
         android:layout_width="match_parent"
         android:layout_height="39dp"
-        android:layout_above="@+id/id_forgetPassword_TextView"
+        android:layout_above="@+id/id_CforgetPassword_TextView"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="29dp"
         android:layout_marginRight="29dp"
@@ -100,7 +98,7 @@
     <!-- forget password -->
 
     <Strathcafe.cairoTextView
-        android:id="@+id/id_forgetPassword_TextView"
+        android:id="@+id/id_CforgetPassword_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/id_SignUp_LinearLayout"
@@ -119,7 +117,7 @@
         android:layout_marginBottom="2dp"
         android:orientation="vertical">
 
-        <RelativeLayout
+       <!-- <RelativeLayout
             android:id="@+id/id_SignUpFacebook_RelativeLayout"
             android:layout_width="match_parent"
             android:layout_height="42dp"
@@ -136,7 +134,7 @@
                 android:textColor="@color/Texticons"
                 android:textSize="16sp" />
 
-        </RelativeLayout>
+        </RelativeLayout>-->
 
         <RelativeLayout
             android:id="@+id/id_sIGNuP_RelativeLayout"

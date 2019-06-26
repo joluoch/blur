@@ -7,9 +7,7 @@ import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
 
 
-/**
- * for more visit http://materialuiux.com
- */
+
 public class cairoEditText extends AppCompatEditText {
 
 

@@ -8,9 +8,7 @@ import android.util.AttributeSet;
 import strathcafe.strathcafe.com.R;
 
 
-/**
- * for more visit http://materialuiux.com
- */
+
 
 public class cairoButton  extends AppCompatButton {
 
