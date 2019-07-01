@@ -20,13 +20,13 @@ public class MainActivity extends AppCompatActivity implements main_menu.OnFragm
         setContentView(R.layout.activity_main);
 
         TabLayout tabLayout = (TabLayout)findViewById(R.id.tablayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 1"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 2"));
-        tabLayout.addTab(tabLayout.newTab().setText("Tab 3"));
+        tabLayout.addTab(tabLayout.newTab().setText("Menu"));
+        tabLayout.addTab(tabLayout.newTab().setText("Vegeterian"));
+        tabLayout.addTab(tabLayout.newTab().setText("Discount"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager)findViewById(R.id.pager);
-        final strathcafe.strathcafe.com.PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
+        final PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager(),tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
         viewPager.setOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 
