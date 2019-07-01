@@ -28,5 +28,11 @@
     <string name="new_create_account_now">New ? create account now?</string>
     <string name="Strathcafe">Strathcafe</string>
     <string name="Readterms">Read Terms</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detail_desc">detail_desc</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
 </resources>
 

@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".chef.AdminHome"></activity>
+        <activity android:name=".customer.DetailActivity"></activity>
+        <activity android:name=".chef.AdminHome" />
         <activity android:name=".chef.chefsignup" />
         <activity android:name=".chef.cheflogin" />
         <activity android:name=".customer.SignIn" />
