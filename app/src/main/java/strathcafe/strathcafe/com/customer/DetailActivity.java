@@ -9,6 +9,8 @@ import strathcafe.strathcafe.com.R;
 
 public class DetailActivity extends AppCompatActivity {
 
+
+
     public static final String EXTRA_POSITION = "position";
 
     @Override
