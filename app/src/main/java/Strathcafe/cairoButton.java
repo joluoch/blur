@@ -2,8 +2,9 @@ package Strathcafe;
 
 import android.content.Context;
 import android.graphics.Typeface;
-import android.support.v7.widget.AppCompatButton;
 import android.util.AttributeSet;
+
+import androidx.appcompat.widget.AppCompatButton;
 
 import strathcafe.strathcafe.com.R;
 

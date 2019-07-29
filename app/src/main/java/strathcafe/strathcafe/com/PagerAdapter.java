@@ -1,8 +1,8 @@
 package strathcafe.strathcafe.com;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import strathcafe.strathcafe.com.fragments.Discount;
 import strathcafe.strathcafe.com.fragments.main_menu;
