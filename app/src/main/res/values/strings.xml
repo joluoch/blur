@@ -34,5 +34,7 @@
     <string name="detail_desc">detail_desc</string>
     <string name="description">Description</string>
     <string name="price">Price</string>
+    <string name="customer_login">Customer Login</string>
+    <string name="chef_login">Chef Login</string>
 </resources>
 

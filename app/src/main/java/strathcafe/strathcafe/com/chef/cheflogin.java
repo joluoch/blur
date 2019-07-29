@@ -120,8 +120,11 @@ public class cheflogin extends AppCompatActivity
                                                     "Authentication Failed",
                                                     Toast.LENGTH_LONG).show();
                                             Log.v("error", task.getResult().toString());
+
+                                            Intent intent = new Intent(cheflogin.this, AdminHome.class);
+                                            startActivity(intent);
                                         } /*else {
-                                            Intent intent = new Intent(SignIn.this, MainActivity.class);
+                                            Intent intent = new Intent(SignIn.this, AdminHome.class);
                                             startActivity(intent);
                                             finish();
                                         }*/

@@ -7,10 +7,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import strathcafe.strathcafe.com.chef.cheflogin;
 import strathcafe.strathcafe.com.customer.SignIn;
 
 public class home extends AppCompatActivity {
-    private TextView customerlogin,cheflogin;
+    private TextView customerlogin,cheflog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +20,7 @@ public class home extends AppCompatActivity {
 
 
         customerlogin=(TextView)findViewById(R.id.Clogin);
-        cheflogin=(TextView)findViewById(R.id.cLogin);
+        cheflog=(TextView)findViewById(R.id.cLogin);
 
 
         customerlogin.setOnClickListener(new View.OnClickListener() {
@@ -32,10 +33,10 @@ public class home extends AppCompatActivity {
             }
         });
 
-        cheflogin.setOnClickListener(new View.OnClickListener() {
+        cheflog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent s = new Intent(home.this, strathcafe.strathcafe.com.chef.cheflogin.class);
+                Intent s = new Intent(home.this, cheflogin.class);
                 startActivity(s);
                 finish();
                 return;
