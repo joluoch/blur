@@ -21,9 +21,9 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import Strathcafe.cairoButton;
-import Strathcafe.cairoEditText;
-import Strathcafe.cairoTextView;
+import straathcafe.cairoButton;
+import straathcafe.cairoEditText;
+import straathcafe.cairoTextView;
 import strathcafe.strathcafe.com.R;
 
 

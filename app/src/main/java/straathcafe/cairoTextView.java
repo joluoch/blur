@@ -1,4 +1,4 @@
-package Strathcafe;
+package straathcafe;
 
 import android.content.Context;
 import android.graphics.Typeface;

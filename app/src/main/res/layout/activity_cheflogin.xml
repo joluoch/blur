@@ -36,7 +36,7 @@
             android:layout_height="39dp"
             >
 
-            <Strathcafe.cairoEditText
+            <straathcafe.cairoEditText
                 android:id="@+id/id_Cemail_EditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -61,7 +61,7 @@
             android:layout_height="39dp"
             >
 
-            <Strathcafe.cairoEditText
+            <straathcafe.cairoEditText
                 android:id="@+id/id_Cpassword_EditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -81,7 +81,7 @@
 
     <!-- Sign In Button -->
 
-    <Strathcafe.cairoButton
+    <straathcafe.cairoButton
         android:id="@+id/id_CsignIn_Button"
         android:layout_width="match_parent"
         android:layout_height="39dp"
@@ -97,7 +97,7 @@
 
     <!-- forget password -->
 
-    <Strathcafe.cairoTextView
+    <straathcafe.cairoTextView
         android:id="@+id/id_CforgetPassword_TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
             android:background="#31FFFFFF"
             >
 
-            <Strathcafe.cairoTextView
+            <straathcafe.cairoTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"

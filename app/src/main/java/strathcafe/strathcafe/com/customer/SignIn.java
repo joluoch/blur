@@ -19,9 +19,9 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-import Strathcafe.cairoButton;
-import Strathcafe.cairoEditText;
-import Strathcafe.cairoTextView;
+import straathcafe.cairoButton;
+import straathcafe.cairoEditText;
+import straathcafe.cairoTextView;
 import strathcafe.strathcafe.com.R;
 import strathcafe.strathcafe.com.forgetpassword;
 

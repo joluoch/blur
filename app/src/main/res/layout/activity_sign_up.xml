@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <Strathcafe.cairoEditText
+            <straathcafe.cairoEditText
                 android:id="@+id/id_email_EditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -97,7 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="39dp">
 
-            <Strathcafe.cairoEditText
+            <straathcafe.cairoEditText
                 android:id="@+id/id_password_EditText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -116,7 +116,7 @@
     </LinearLayout>
 
     <!-- Sign Up Button  -->
-    <Strathcafe.cairoButton
+    <straathcafe.cairoButton
         android:id="@+id/id_signUp_Button"
         android:layout_width="match_parent"
         android:layout_height="39dp"
@@ -146,13 +146,13 @@
         android:padding="8dp"
         tools:ignore="HardcodedText">
 
-        <Strathcafe.cairoTextView
+        <straathcafe.cairoTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Readterms"
             android:textColor="@color/Texticons" />
 
-        <Strathcafe.cairoTextView
+        <straathcafe.cairoTextView
             android:id="@+id/id_privacyPolicy_TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -181,7 +181,7 @@
             android:background="#31FFFFFF"
             tools:ignore="UselessParent">
 
-            <Strathcafe.cairoTextView
+            <straathcafe.cairoTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
