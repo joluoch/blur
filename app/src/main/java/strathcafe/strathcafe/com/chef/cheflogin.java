@@ -23,7 +23,6 @@ import Strathcafe.cairoButton;
 import Strathcafe.cairoEditText;
 import Strathcafe.cairoTextView;
 import strathcafe.strathcafe.com.R;
-import strathcafe.strathcafe.com.customer.MainActivity;
 import strathcafe.strathcafe.com.customer.SignUp;
 import strathcafe.strathcafe.com.forgetpassword;
 
@@ -159,9 +158,11 @@ public class cheflogin extends AppCompatActivity
 
     }
 
+    // to avoid loging in again it takes you to the home page
+
     @Override    protected void onResume() {
         if (auth.getCurrentUser() != null) {
-            startActivity(new Intent(cheflogin.this, MainActivity.class));
+            startActivity(new Intent(cheflogin.this, AdminHome.class));
             finish();
         }
         super.onResume();

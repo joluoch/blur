@@ -36,5 +36,8 @@
     <string name="price">Price</string>
     <string name="customer_login">Customer Login</string>
     <string name="chef_login">Chef Login</string>
+    <string name="welcome_chef">WELCOME CHEF</string>
+    <string name="home">Home</string>
+    <string name="add_food">Add Food</string>
 </resources>
 

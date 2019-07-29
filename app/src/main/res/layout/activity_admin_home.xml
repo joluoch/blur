@@ -1,9 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chef.AdminHome">
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".chef.AdminHome"
+    android:background="@drawable/homeback">
 
-</android.support.constraint.ConstraintLayout>
+
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/welcome_chef"
+    android:id="@+id/textview"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="@string/home"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:clickable="true"
+            android:textSize="18sp"
+            android:textColor="#f16f71"
+            android:padding="16dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginTop="32dp"
+            android:id="@+id/btntocustomerhome"
+            android:gravity="center"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="@string/add_food"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:clickable="true"
+            android:textSize="18sp"
+            android:textColor="#f16f71"
+            android:padding="16dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_marginTop="32dp"
+            android:id="@+id/btntoaddfood"
+            android:gravity="center"/>
+
+
+
+</LinearLayout>
+    </LinearLayout>

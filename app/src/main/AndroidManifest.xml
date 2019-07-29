@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="strathcafe.strathcafe.com">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,9 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".chef.add"></activity>
+
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5784078704663735~5827364020"/>
+            android:value="ca-app-pub-5784078704663735~5827364020" />
 
         <activity android:name=".customer.DetailActivity" />
         <activity android:name=".chef.AdminHome" />
