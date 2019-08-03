@@ -23,7 +23,6 @@ import straathcafe.cairoButton;
 import straathcafe.cairoEditText;
 import straathcafe.cairoTextView;
 import strathcafe.strathcafe.com.R;
-import strathcafe.strathcafe.com.customer.SignUp;
 import strathcafe.strathcafe.com.forgetpassword;
 
 
@@ -144,7 +143,7 @@ public class cheflogin extends AppCompatActivity
 
         _signUpRelativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override            public void onClick(View view) {
-                Intent intent = new Intent(cheflogin.this, SignUp.class);
+                Intent intent = new Intent(cheflogin.this, chefsignup.class);
                 startActivity(intent);
             }
         });
