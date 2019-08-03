@@ -16,11 +16,43 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose File"
+            android:clickable="true"/>
+
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="200dp"
-            android:id="@+id/ShowImageView"
+            android:id="@+id/image_view"
             android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edit_text_file_name"
+            android:layout_width="277dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:hint="enter file name" />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/button_upload"
+    android:text="upload"/>
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_marginBottom="421dp"
+            android:visibility="visible" />
+
+
+
 
 
 
