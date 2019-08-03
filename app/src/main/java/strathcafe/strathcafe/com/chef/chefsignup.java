@@ -40,7 +40,7 @@ public class chefsignup extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sign_up);
+        setContentView(R.layout.activity_chefsignup);
 
 
         auth = FirebaseAuth.getInstance();
