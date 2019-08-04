@@ -46,7 +46,7 @@ public class cheflogin extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
-        setContentView(R.layout.activity_sign_in);
+        setContentView(R.layout.activity_cheflogin);
 
         auth = FirebaseAuth.getInstance();
 
